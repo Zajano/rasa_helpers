@@ -1,0 +1,432 @@
+{
+  "transfer_to_expert": {
+    "precision": 0.8121212121212121,
+    "recall": 0.8375,
+    "f1-score": 0.8246153846153846,
+    "support": 160,
+    "confused_with": {
+      "pa_edit_cancel": 5,
+      "out_of_scope_tmo": 3
+    }
+  },
+  "affirm": {
+    "precision": 0.9009009009009009,
+    "recall": 0.8695652173913043,
+    "f1-score": 0.8849557522123894,
+    "support": 230,
+    "confused_with": {
+      "out_of_scope": 12,
+      "broken": 3
+    }
+  },
+  "speak_spanish": {
+    "precision": 0.9636363636363636,
+    "recall": 0.8153846153846154,
+    "f1-score": 0.8833333333333333,
+    "support": 65,
+    "confused_with": {
+      "bill_view": 3,
+      "shop_device": 2
+    }
+  },
+  "order_status": {
+    "precision": 0.8269230769230769,
+    "recall": 0.8958333333333334,
+    "f1-score": 0.86,
+    "support": 48,
+    "confused_with": {
+      "shop_device": 4,
+      "shop_device_apple": 1
+    }
+  },
+  "shop_device_apple": {
+    "precision": 0.8589743589743589,
+    "recall": 0.8933333333333333,
+    "f1-score": 0.8758169934640523,
+    "support": 75,
+    "confused_with": {
+      "shop_device": 2,
+      "balance_eip": 1
+    }
+  },
+  "pa_cannot_pay": {
+    "precision": 0.4915254237288136,
+    "recall": 0.48333333333333334,
+    "f1-score": 0.48739495798319327,
+    "support": 60,
+    "confused_with": {
+      "pa_change_dates": 10,
+      "pa_create": 8
+    }
+  },
+  "payment_processing": {
+    "precision": 0.6835443037974683,
+    "recall": 0.7605633802816901,
+    "f1-score": 0.72,
+    "support": 71,
+    "confused_with": {
+      "balance_eip": 4,
+      "pa_create": 3
+    }
+  },
+  "manage_plan": {
+    "precision": 0.832,
+    "recall": 0.9043478260869565,
+    "f1-score": 0.8666666666666667,
+    "support": 115,
+    "confused_with": {
+      "transfer_to_expert": 2,
+      "out_of_scope_tmo": 2
+    }
+  },
+  "pa_view_existing": {
+    "precision": 0.75,
+    "recall": 0.5,
+    "f1-score": 0.6,
+    "support": 18,
+    "confused_with": {
+      "pa_create": 3,
+      "pa_edit_cancel": 1
+    }
+  },
+  "setup_autopay": {
+    "precision": 0.8913043478260869,
+    "recall": 1.0,
+    "f1-score": 0.9425287356321839,
+    "support": 41,
+    "confused_with": {}
+  },
+  "pa_update_payment": {
+    "precision": 0.7068965517241379,
+    "recall": 0.7884615384615384,
+    "f1-score": 0.7454545454545455,
+    "support": 52,
+    "confused_with": {
+      "pa_edit_cancel": 4,
+      "pa_change_dates": 1
+    }
+  },
+  "plan_addons": {
+    "precision": 0.9411764705882353,
+    "recall": 0.8135593220338984,
+    "f1-score": 0.8727272727272728,
+    "support": 59,
+    "confused_with": {
+      "line_add": 3,
+      "worry_shutoff": 1
+    }
+  },
+  "main_menu": {
+    "precision": 0.7241379310344828,
+    "recall": 0.9130434782608695,
+    "f1-score": 0.8076923076923076,
+    "support": 23,
+    "confused_with": {
+      "out_of_scope": 1,
+      "shop_device": 1
+    }
+  },
+  "tvision": {
+    "precision": 0.9636363636363636,
+    "recall": 0.9217391304347826,
+    "f1-score": 0.9422222222222223,
+    "support": 115,
+    "confused_with": {
+      "payment_processing": 2,
+      "broken": 2
+    }
+  },
+  "self_service": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "pa_create": {
+    "precision": 0.6372549019607843,
+    "recall": 0.6842105263157895,
+    "f1-score": 0.6598984771573604,
+    "support": 95,
+    "confused_with": {
+      "pa_cannot_pay": 5,
+      "pa_change_dates": 4
+    }
+  },
+  "button_manage_services": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "button_need_help": {
+    "precision": 0.7272727272727273,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.7999999999999999,
+    "support": 9,
+    "confused_with": {
+      "deny": 1
+    }
+  },
+  "deny": {
+    "precision": 0.8532110091743119,
+    "recall": 0.9393939393939394,
+    "f1-score": 0.8942307692307692,
+    "support": 99,
+    "confused_with": {
+      "affirm": 1,
+      "balance_eip": 1
+    }
+  },
+  "balance_eip": {
+    "precision": 0.7985611510791367,
+    "recall": 0.9098360655737705,
+    "f1-score": 0.8505747126436781,
+    "support": 122,
+    "confused_with": {
+      "bill_pay": 4,
+      "bill_view": 3
+    }
+  },
+  "bill_view": {
+    "precision": 0.7777777777777778,
+    "recall": 0.875,
+    "f1-score": 0.823529411764706,
+    "support": 88,
+    "confused_with": {
+      "balance_eip": 2,
+      "bill_general": 2
+    }
+  },
+  "button_shop_other_device": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "line_add_byo": {
+    "precision": 0.8214285714285714,
+    "recall": 0.6764705882352942,
+    "f1-score": 0.7419354838709677,
+    "support": 34,
+    "confused_with": {
+      "line_add": 6,
+      "shop_device": 1
+    }
+  },
+  "lost_phone": {
+    "precision": 0.9361702127659575,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.8888888888888888,
+    "support": 52,
+    "confused_with": {
+      "order_status": 2,
+      "pa_change_dates": 2
+    }
+  },
+  "button_tradein": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "shop_device": {
+    "precision": 0.7346938775510204,
+    "recall": 0.7912087912087912,
+    "f1-score": 0.7619047619047619,
+    "support": 91,
+    "confused_with": {
+      "manage_plan": 5,
+      "line_add": 4
+    }
+  },
+  "bill_general": {
+    "precision": 0.5833333333333334,
+    "recall": 0.6,
+    "f1-score": 0.591549295774648,
+    "support": 35,
+    "confused_with": {
+      "bill_view": 4,
+      "bill_pay": 2
+    }
+  },
+  "out_of_scope_tmo": {
+    "precision": 0.49019607843137253,
+    "recall": 0.45454545454545453,
+    "f1-score": 0.4716981132075472,
+    "support": 55,
+    "confused_with": {
+      "pa_edit_cancel": 3,
+      "transfer_to_expert": 3
+    }
+  },
+  "bill_pay": {
+    "precision": 0.821917808219178,
+    "recall": 0.8633093525179856,
+    "f1-score": 0.8421052631578948,
+    "support": 139,
+    "confused_with": {
+      "pa_cannot_pay": 5,
+      "pa_edit_cancel": 4
+    }
+  },
+  "worry_shutoff": {
+    "precision": 0.65,
+    "recall": 0.4642857142857143,
+    "f1-score": 0.5416666666666667,
+    "support": 28,
+    "confused_with": {
+      "transfer_to_expert": 4,
+      "balance_eip": 3
+    }
+  },
+  "pa_edit_cancel": {
+    "precision": 0.624113475177305,
+    "recall": 0.6330935251798561,
+    "f1-score": 0.6285714285714284,
+    "support": 139,
+    "confused_with": {
+      "pa_change_dates": 12,
+      "pa_create": 9
+    }
+  },
+  "pa_change_dates": {
+    "precision": 0.7181208053691275,
+    "recall": 0.7985074626865671,
+    "f1-score": 0.7561837455830388,
+    "support": 134,
+    "confused_with": {
+      "pa_edit_cancel": 16,
+      "pa_cannot_pay": 4
+    }
+  },
+  "line_add": {
+    "precision": 0.686046511627907,
+    "recall": 0.8082191780821918,
+    "f1-score": 0.7421383647798743,
+    "support": 73,
+    "confused_with": {
+      "manage_plan": 3,
+      "shop_device_apple": 2
+    }
+  },
+  "button_payment_options": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8571428571428571,
+    "support": 7,
+    "confused_with": {
+      "payment_processing": 1
+    }
+  },
+  "greeting": {
+    "precision": 0.7321428571428571,
+    "recall": 0.8367346938775511,
+    "f1-score": 0.7809523809523811,
+    "support": 49,
+    "confused_with": {
+      "affirm": 3,
+      "closing": 2
+    }
+  },
+  "closing": {
+    "precision": 0.5925925925925926,
+    "recall": 0.5925925925925926,
+    "f1-score": 0.5925925925925926,
+    "support": 27,
+    "confused_with": {
+      "transfer_to_expert": 3,
+      "thank": 3
+    }
+  },
+  "out_of_scope": {
+    "precision": 0.8669950738916257,
+    "recall": 0.6027397260273972,
+    "f1-score": 0.711111111111111,
+    "support": 292,
+    "confused_with": {
+      "affirm": 13,
+      "broken": 11
+    }
+  },
+  "button_view_deals": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "thank": {
+    "precision": 0.86,
+    "recall": 0.8269230769230769,
+    "f1-score": 0.8431372549019608,
+    "support": 52,
+    "confused_with": {
+      "deny": 3,
+      "balance_eip": 1
+    }
+  },
+  "bill_shock": {
+    "precision": 0.8214285714285714,
+    "recall": 0.7419354838709677,
+    "f1-score": 0.7796610169491526,
+    "support": 31,
+    "confused_with": {
+      "bill_general": 3,
+      "payment_processing": 2
+    }
+  },
+  "line_suspend": {
+    "precision": 0.8780487804878049,
+    "recall": 0.8372093023255814,
+    "f1-score": 0.8571428571428572,
+    "support": 43,
+    "confused_with": {
+      "transfer_to_expert": 3,
+      "line_add": 3
+    }
+  },
+  "why": {
+    "precision": 0.6875,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.7096774193548386,
+    "support": 15,
+    "confused_with": {
+      "transfer_to_expert": 1,
+      "greeting": 1
+    }
+  },
+  "broken": {
+    "precision": 0.8246753246753247,
+    "recall": 0.8581081081081081,
+    "f1-score": 0.8410596026490066,
+    "support": 148,
+    "confused_with": {
+      "pa_update_payment": 3,
+      "out_of_scope": 2
+    }
+  },
+  "end_conversation": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "accuracy": 0.7908970976253298,
+  "macro avg": {
+    "precision": 0.7899084779998425,
+    "recall": 0.8071933412637549,
+    "f1-score": 0.794842462279778,
+    "support": 3032
+  },
+  "weighted avg": {
+    "precision": 0.7955453891227999,
+    "recall": 0.7908970976253298,
+    "f1-score": 0.7891699673824538,
+    "support": 3032
+  }
+}

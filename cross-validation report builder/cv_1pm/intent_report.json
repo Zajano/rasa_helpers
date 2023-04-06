@@ -1,0 +1,442 @@
+{
+  "worry_shutoff": {
+    "precision": 0.5862068965517241,
+    "recall": 0.6071428571428571,
+    "f1-score": 0.5964912280701754,
+    "support": 28,
+    "confused_with": {
+      "bill_pay": 3,
+      "pa_cannot_pay": 2
+    }
+  },
+  "thank": {
+    "precision": 0.7741935483870968,
+    "recall": 0.8135593220338984,
+    "f1-score": 0.7933884297520662,
+    "support": 59,
+    "confused_with": {
+      "deny": 3,
+      "pa_update_payment": 2
+    }
+  },
+  "button_view_deals": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "plan_addons": {
+    "precision": 0.8867924528301887,
+    "recall": 0.7966101694915254,
+    "f1-score": 0.8392857142857143,
+    "support": 59,
+    "confused_with": {
+      "line_add": 2,
+      "tmo_out_of_scope": 2
+    }
+  },
+  "transfer_to_expert": {
+    "precision": 0.8113207547169812,
+    "recall": 0.8012422360248447,
+    "f1-score": 0.80625,
+    "support": 161,
+    "confused_with": {
+      "tmo_out_of_scope": 4,
+      "line_suspend": 4
+    }
+  },
+  "line_suspend": {
+    "precision": 0.8604651162790697,
+    "recall": 0.8409090909090909,
+    "f1-score": 0.8505747126436781,
+    "support": 44,
+    "confused_with": {
+      "transfer_to_expert": 2,
+      "worry_shutoff": 1
+    }
+  },
+  "button_need_help": {
+    "precision": 0.875,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.823529411764706,
+    "support": 9,
+    "confused_with": {
+      "broken": 1,
+      "deny": 1
+    }
+  },
+  "end_conversation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "speak_spanish": {
+    "precision": 1.0,
+    "recall": 0.8153846153846154,
+    "f1-score": 0.8983050847457628,
+    "support": 65,
+    "confused_with": {
+      "transfer_to_expert": 3,
+      "bill_view": 2
+    }
+  },
+  "bill_view": {
+    "precision": 0.7669902912621359,
+    "recall": 0.8977272727272727,
+    "f1-score": 0.8272251308900525,
+    "support": 88,
+    "confused_with": {
+      "bill_general": 4,
+      "bill_pay": 2
+    }
+  },
+  "button_payment_options": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 7,
+    "confused_with": {}
+  },
+  "shop_device_apple": {
+    "precision": 0.8625,
+    "recall": 0.92,
+    "f1-score": 0.8903225806451613,
+    "support": 75,
+    "confused_with": {
+      "shop_device": 2,
+      "order_status": 1
+    }
+  },
+  "tvision": {
+    "precision": 0.9130434782608695,
+    "recall": 0.9130434782608695,
+    "f1-score": 0.9130434782608695,
+    "support": 115,
+    "confused_with": {
+      "pa_edit_cancel": 2,
+      "shop_device": 1
+    }
+  },
+  "affirm": {
+    "precision": 0.8777292576419214,
+    "recall": 0.8739130434782608,
+    "f1-score": 0.8758169934640523,
+    "support": 230,
+    "confused_with": {
+      "out_of_scope": 11,
+      "broken": 2
+    }
+  },
+  "shop_device": {
+    "precision": 0.75,
+    "recall": 0.7582417582417582,
+    "f1-score": 0.7540983606557377,
+    "support": 91,
+    "confused_with": {
+      "plan_compare": 6,
+      "line_add": 5
+    }
+  },
+  "bill_shock": {
+    "precision": 0.6818181818181818,
+    "recall": 0.4838709677419355,
+    "f1-score": 0.5660377358490567,
+    "support": 31,
+    "confused_with": {
+      "bill_general": 4,
+      "bill_view": 3
+    }
+  },
+  "main_menu": {
+    "precision": 0.7916666666666666,
+    "recall": 0.8260869565217391,
+    "f1-score": 0.8085106382978724,
+    "support": 23,
+    "confused_with": {
+      "button_payment_options": 1,
+      "line_add_byo": 1
+    }
+  },
+  "order_status": {
+    "precision": 0.8076923076923077,
+    "recall": 0.875,
+    "f1-score": 0.8400000000000001,
+    "support": 48,
+    "confused_with": {
+      "shop_device": 2,
+      "pa_cannot_pay": 1
+    }
+  },
+  "line_add_byo": {
+    "precision": 0.6216216216216216,
+    "recall": 0.6764705882352942,
+    "f1-score": 0.6478873239436619,
+    "support": 34,
+    "confused_with": {
+      "line_add": 4,
+      "out_of_scope": 2
+    }
+  },
+  "setup_autopay": {
+    "precision": 0.8666666666666667,
+    "recall": 0.9512195121951219,
+    "f1-score": 0.9069767441860465,
+    "support": 41,
+    "confused_with": {
+      "pa_update_payment": 2
+    }
+  },
+  "bill_general": {
+    "precision": 0.5384615384615384,
+    "recall": 0.5675675675675675,
+    "f1-score": 0.5526315789473685,
+    "support": 37,
+    "confused_with": {
+      "bill_view": 6,
+      "payment_processing": 4
+    }
+  },
+  "why": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 15,
+    "confused_with": {
+      "worry_shutoff": 1,
+      "main_menu": 1
+    }
+  },
+  "deny": {
+    "precision": 0.8469387755102041,
+    "recall": 0.8383838383838383,
+    "f1-score": 0.8426395939086294,
+    "support": 99,
+    "confused_with": {
+      "out_of_scope": 5,
+      "affirm": 4
+    }
+  },
+  "greeting": {
+    "precision": 0.6428571428571429,
+    "recall": 0.627906976744186,
+    "f1-score": 0.6352941176470588,
+    "support": 43,
+    "confused_with": {
+      "closing": 4,
+      "affirm": 2
+    }
+  },
+  "pa_cannot_pay": {
+    "precision": 0.4418604651162791,
+    "recall": 0.5205479452054794,
+    "f1-score": 0.4779874213836478,
+    "support": 73,
+    "confused_with": {
+      "pa_change_dates": 10,
+      "pa_create": 10
+    }
+  },
+  "tmo_out_of_scope": {
+    "precision": 0.5357142857142857,
+    "recall": 0.5454545454545454,
+    "f1-score": 0.5405405405405406,
+    "support": 55,
+    "confused_with": {
+      "bill_view": 3,
+      "order_status": 2
+    }
+  },
+  "payment_processing": {
+    "precision": 0.7714285714285715,
+    "recall": 0.7105263157894737,
+    "f1-score": 0.7397260273972601,
+    "support": 76,
+    "confused_with": {
+      "pa_edit_cancel": 6,
+      "pa_change_dates": 5
+    }
+  },
+  "plan_compare": {
+    "precision": 0.75,
+    "recall": 0.821917808219178,
+    "f1-score": 0.7843137254901962,
+    "support": 73,
+    "confused_with": {
+      "plan_review": 5,
+      "thank": 2
+    }
+  },
+  "closing": {
+    "precision": 0.5882352941176471,
+    "recall": 0.6060606060606061,
+    "f1-score": 0.5970149253731343,
+    "support": 33,
+    "confused_with": {
+      "greeting": 3,
+      "transfer_to_expert": 2
+    }
+  },
+  "button_shop_other_device": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 6,
+    "confused_with": {}
+  },
+  "pa_update_payment": {
+    "precision": 0.7272727272727273,
+    "recall": 0.7741935483870968,
+    "f1-score": 0.7500000000000001,
+    "support": 62,
+    "confused_with": {
+      "pa_edit_cancel": 4,
+      "pa_change_dates": 3
+    }
+  },
+  "pa_edit_cancel": {
+    "precision": 0.6424242424242425,
+    "recall": 0.6583850931677019,
+    "f1-score": 0.6503067484662577,
+    "support": 161,
+    "confused_with": {
+      "pa_change_dates": 18,
+      "pa_cannot_pay": 11
+    }
+  },
+  "button_manage_services": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "pa_edit_cancel": 1
+    }
+  },
+  "out_of_scope": {
+    "precision": 0.8159203980099502,
+    "recall": 0.5597269624573379,
+    "f1-score": 0.6639676113360323,
+    "support": 293,
+    "confused_with": {
+      "affirm": 21,
+      "transfer_to_expert": 10
+    }
+  },
+  "pa_change_dates": {
+    "precision": 0.6721311475409836,
+    "recall": 0.7834394904458599,
+    "f1-score": 0.7235294117647059,
+    "support": 157,
+    "confused_with": {
+      "pa_edit_cancel": 16,
+      "pa_cannot_pay": 11
+    }
+  },
+  "plan_review": {
+    "precision": 0.6590909090909091,
+    "recall": 0.6904761904761905,
+    "f1-score": 0.6744186046511628,
+    "support": 42,
+    "confused_with": {
+      "plan_compare": 7,
+      "tvision": 2
+    }
+  },
+  "bill_pay": {
+    "precision": 0.8012820512820513,
+    "recall": 0.8865248226950354,
+    "f1-score": 0.8417508417508417,
+    "support": 141,
+    "confused_with": {
+      "pa_change_dates": 4,
+      "pa_create": 3
+    }
+  },
+  "button_add_suspend": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "button_tradein": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "lost_phone": {
+    "precision": 0.9574468085106383,
+    "recall": 0.8653846153846154,
+    "f1-score": 0.9090909090909091,
+    "support": 52,
+    "confused_with": {
+      "worry_shutoff": 1,
+      "setup_autopay": 1
+    }
+  },
+  "pa_view_existing": {
+    "precision": 0.8181818181818182,
+    "recall": 0.47368421052631576,
+    "f1-score": 0.6,
+    "support": 19,
+    "confused_with": {
+      "pa_create": 4,
+      "bill_view": 2
+    }
+  },
+  "line_add": {
+    "precision": 0.7901234567901234,
+    "recall": 0.8311688311688312,
+    "f1-score": 0.810126582278481,
+    "support": 77,
+    "confused_with": {
+      "line_add_byo": 5,
+      "shop_device_apple": 3
+    }
+  },
+  "pa_create": {
+    "precision": 0.6071428571428571,
+    "recall": 0.7083333333333334,
+    "f1-score": 0.6538461538461539,
+    "support": 96,
+    "confused_with": {
+      "pa_cannot_pay": 8,
+      "pa_change_dates": 5
+    }
+  },
+  "broken": {
+    "precision": 0.8012422360248447,
+    "recall": 0.8543046357615894,
+    "f1-score": 0.826923076923077,
+    "support": 151,
+    "confused_with": {
+      "pa_update_payment": 3,
+      "out_of_scope": 3
+    }
+  },
+  "self_service": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "accuracy": 0.76585851876453,
+  "macro avg": {
+    "precision": 0.7855510066490129,
+    "recall": 0.787826377408792,
+    "f1-score": 0.7829912654136505,
+    "support": 3011
+  },
+  "weighted avg": {
+    "precision": 0.7720734107854718,
+    "recall": 0.76585851876453,
+    "f1-score": 0.7648765872173654,
+    "support": 3011
+  }
+}

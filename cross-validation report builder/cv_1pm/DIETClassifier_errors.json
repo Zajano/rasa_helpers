@@ -1,0 +1,41 @@
+[
+  {
+    "text": "What is deal on new phone?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "device",
+        "start": 0,
+        "end": 4,
+        "value": "What",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "device",
+        "start": 13,
+        "end": 15,
+        "value": "on",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "device",
+        "start": 20,
+        "end": 25,
+        "value": "phone",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What is deal on new phone?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "phone",
+        "entity": "device"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

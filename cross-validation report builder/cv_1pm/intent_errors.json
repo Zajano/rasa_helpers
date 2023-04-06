@@ -1,0 +1,5642 @@
+[
+  {
+    "text": "But I would like to know why I’m paying 277",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.45167744159698486
+    }
+  },
+  {
+    "text": "I am curious why there is an additional $20 to my bill this month?",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "bill_shock",
+      "confidence": 0.43057405948638916
+    }
+  },
+  {
+    "text": "I keep getting text messages that my bill needs to be paid.",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.9146265387535095
+    }
+  },
+  {
+    "text": "I need to know why my bill didn't went down if I already pay my phone completely",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.7582705616950989
+    }
+  },
+  {
+    "text": "I need to make a payment. The mastercard on file declined yesterday",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.9929956197738647
+    }
+  },
+  {
+    "text": "I want to pay today, not tomorrow",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.8170580863952637
+    }
+  },
+  {
+    "text": "I would like to pay my bill using a one time credit card.",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.5599061846733093
+    }
+  },
+  {
+    "text": "I would like to pay the amount that’s schedule for 10/5",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.7895940542221069
+    }
+  },
+  {
+    "text": "I’m Trying To Pay The 30 Dollars Do today.",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.4672239422798157
+    }
+  },
+  {
+    "text": "Make that pmt",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.8903356194496155
+    }
+  },
+  {
+    "text": "I just want to know why I am paying more than I did last month.",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.5778188109397888
+    }
+  },
+  {
+    "text": "I want to know why do i pay so much",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.9655229449272156
+    }
+  },
+  {
+    "text": "why does my service cost so much?",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "why",
+      "confidence": 0.5556454658508301
+    }
+  },
+  {
+    "text": "Why is the amount so much?",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "why",
+      "confidence": 0.7720956802368164
+    }
+  },
+  {
+    "text": "explain my bill",
+    "intent": "bill_view",
+    "intent_prediction": {
+      "name": "bill_shock",
+      "confidence": 0.9922406077384949
+    }
+  },
+  {
+    "text": "Hi.  I have some questions regarding my balance.",
+    "intent": "bill_view",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.5696501135826111
+    }
+  },
+  {
+    "text": "Edit my services",
+    "intent": "button_manage_services",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.6992500424385071
+    }
+  },
+  {
+    "text": "I am stuck I need help",
+    "intent": "button_need_help",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9318840503692627
+    }
+  },
+  {
+    "text": "a little",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9929113984107971
+    }
+  },
+  {
+    "text": "okie",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.999740481376648
+    }
+  },
+  {
+    "text": "Sweet",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9993056654930115
+    }
+  },
+  {
+    "text": "that's correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "bill_shock",
+      "confidence": 0.7815563082695007
+    }
+  },
+  {
+    "text": "i'm not sure",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9940379858016968
+    }
+  },
+  {
+    "text": "it sucks",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9974687695503235
+    }
+  },
+  {
+    "text": "no i won't",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.8186691403388977
+    }
+  },
+  {
+    "text": "not yet",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9996893405914307
+    }
+  },
+  {
+    "text": "Greetings",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9931178689002991
+    }
+  },
+  {
+    "text": "Hi! This is Paul from T-Mobile Messaging Team, and I'll be your Expert :)",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.8363536596298218
+    }
+  },
+  {
+    "text": "quick question",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.38043054938316345
+    }
+  },
+  {
+    "text": "I set up my payment method thank for your assistance",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.3283361792564392
+    }
+  },
+  {
+    "text": "Thanks for letting me know",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9860221743583679
+    }
+  },
+  {
+    "text": "It says I’m not eligible for a new payment arrangement",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.9280999302864075
+    }
+  },
+  {
+    "text": "it wont let me change the card holders name",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.9072108268737793
+    }
+  },
+  {
+    "text": "it's broken",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9983211755752563
+    }
+  },
+  {
+    "text": "The app will not let me add my card to set up the arrangement",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.5427635908126831
+    }
+  },
+  {
+    "text": "So why did I receive this text",
+    "intent": "why",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.9978840351104736
+    }
+  },
+  {
+    "text": "Why does it say I'm late then?",
+    "intent": "why",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.33324289321899414
+    }
+  },
+  {
+    "text": "Balance de mi factura",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.5661425590515137
+    }
+  },
+  {
+    "text": "Estoy buscando un LG-G8X,128 gb",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "shop_device_apple",
+      "confidence": 0.4827873408794403
+    }
+  },
+  {
+    "text": "I am a nurse I need my phone for work will this keep the service",
+    "intent": "worry_shutoff",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.4132506847381592
+    }
+  },
+  {
+    "text": "I cannot afford to lose service",
+    "intent": "worry_shutoff",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9493337869644165
+    }
+  },
+  {
+    "text": "what do I need to do to maintain service?",
+    "intent": "worry_shutoff",
+    "intent_prediction": {
+      "name": "main_menu",
+      "confidence": 0.43792954087257385
+    }
+  },
+  {
+    "text": "#BYOD",
+    "intent": "line_add_byo",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9991238117218018
+    }
+  },
+  {
+    "text": "BYOD",
+    "intent": "line_add_byo",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9987674951553345
+    }
+  },
+  {
+    "text": "can I get my mom a phone on my account?",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.4169350862503052
+    }
+  },
+  {
+    "text": "How much is it to add a line to Magenta Military?",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.768179714679718
+    }
+  },
+  {
+    "text": "I am a current customer and I would like to add a number, and 2 ipads to my account",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "shop_device_apple",
+      "confidence": 0.5644717812538147
+    }
+  },
+  {
+    "text": "I reached out to tmobile to receive a new line about a week ago.  I just received the sim card....but i was not aware of the iphone se promo that was occuring so didn't add a new phone at the same time...would it be possible to still do that and get teh 50% off promo?",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.6472951173782349
+    }
+  },
+  {
+    "text": "How do I cancel my service",
+    "intent": "line_suspend",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9961007833480835
+    }
+  },
+  {
+    "text": "I know just need someone to call so i can pay need good with paying this way online 9102623284",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.5888842344284058
+    }
+  },
+  {
+    "text": "My bill should be less than it is i need to talk to someone",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.43325671553611755
+    }
+  },
+  {
+    "text": "something is wrong with my auto payment and I need to talk with a representative",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "setup_autopay",
+      "confidence": 0.5503780245780945
+    }
+  },
+  {
+    "text": "Yes I received a text stating my first responder is not verified.",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.6456975340843201
+    }
+  },
+  {
+    "text": "You don’t understand oh wow.. I will call the store",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7039957642555237
+    }
+  },
+  {
+    "text": "Can you help\\nWhat’s the international calling about",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.375448077917099
+    }
+  },
+  {
+    "text": "cr",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.4570576250553131
+    }
+  },
+  {
+    "text": "Evidently",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.5398395657539368
+    }
+  },
+  {
+    "text": "File a claim",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.5565556883811951
+    }
+  },
+  {
+    "text": "get me a club mate",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.23940400779247284
+    }
+  },
+  {
+    "text": "hang on let me find it",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "lost_phone",
+      "confidence": 0.8921520113945007
+    }
+  },
+  {
+    "text": "how many lines of codes",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.8482260704040527
+    }
+  },
+  {
+    "text": "https://www.tradervue.com/reports/overview",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.45403867959976196
+    }
+  },
+  {
+    "text": "I changed my mind",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.8138089179992676
+    }
+  },
+  {
+    "text": "I had to hurry to the hospital to get a CT",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.4801846146583557
+    }
+  },
+  {
+    "text": "i want to know current situtation in pakistan",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.43758270144462585
+    }
+  },
+  {
+    "text": "JUMP!",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9995856285095215
+    }
+  },
+  {
+    "text": "region with no. of records",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.36498916149139404
+    }
+  },
+  {
+    "text": "sorry, i cannot rephrase",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9598437547683716
+    }
+  },
+  {
+    "text": "what kind of bird are you?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.5394415259361267
+    }
+  },
+  {
+    "text": "What's do YouTube do",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.20004627108573914
+    }
+  },
+  {
+    "text": "when is the next train is coming?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.864273190498352
+    }
+  },
+  {
+    "text": "you're pretty small how do you fit in the phone?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.5469837188720703
+    }
+  },
+  {
+    "text": "explain deals to me",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "bill_shock",
+      "confidence": 0.8524096012115479
+    }
+  },
+  {
+    "text": "I need to check coverage in my area",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "tvision",
+      "confidence": 0.2956133186817169
+    }
+  },
+  {
+    "text": "I would like to payoff the balance owed on my device.",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.561609148979187
+    }
+  },
+  {
+    "text": "Once I re enroll does it give me the 15$ discount again or that’s automatically taken off for ever",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "setup_autopay",
+      "confidence": 0.9311100840568542
+    }
+  },
+  {
+    "text": "t-mobile network",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.5038468837738037
+    }
+  },
+  {
+    "text": "would like to upgrade a line but I want the credit for the trade in phone applied to the balance of the new phone.",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.8154941201210022
+    }
+  },
+  {
+    "text": "do you offer any sort of bill assistance?",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.8338691592216492
+    }
+  },
+  {
+    "text": "Get an extension",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9994576573371887
+    }
+  },
+  {
+    "text": "I don't have any money can I get a payment plan extension?",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9857168793678284
+    }
+  },
+  {
+    "text": "I get paid tommrow so i will  just need intill tommorw",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.39373770356178284
+    }
+  },
+  {
+    "text": "Change billing information",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.45992210507392883
+    }
+  },
+  {
+    "text": "I need to change my payment arrangement",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9904354214668274
+    }
+  },
+  {
+    "text": "Put my new payment in credit card",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9551997780799866
+    }
+  },
+  {
+    "text": "update payment type for payment arrangement",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.6106539368629456
+    }
+  },
+  {
+    "text": "When is my bill for October due",
+    "intent": "pa_view_existing",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.9128085374832153
+    }
+  },
+  {
+    "text": "When is the payment arrangement set up for?",
+    "intent": "pa_view_existing",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.9676468372344971
+    }
+  },
+  {
+    "text": "i can't do the full amount",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.6795803308486938
+    }
+  },
+  {
+    "text": "I couldnt pay the 77.65 on 09/28",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9764165878295898
+    }
+  },
+  {
+    "text": "I just need time till 3 am to make the payment",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.8820167183876038
+    }
+  },
+  {
+    "text": "Need more time for missed payment",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.4477095305919647
+    }
+  },
+  {
+    "text": "so I am not able to make that 210 1st arrangement",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9944428205490112
+    }
+  },
+  {
+    "text": "Can I extend my due date payment",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.5417351722717285
+    }
+  },
+  {
+    "text": "Change payment due date for second arrangement payment",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.8387091755867004
+    }
+  },
+  {
+    "text": "I can pay this coming Friday",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.4884020984172821
+    }
+  },
+  {
+    "text": "I cant pay on the 19 I only get my monthly paycheck on the 27th",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9928795695304871
+    }
+  },
+  {
+    "text": "I need it be due on the 15 of October",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.7419649362564087
+    }
+  },
+  {
+    "text": "I need it changed to another day due to a fraudulante transaction that was done with my card",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.998229444026947
+    }
+  },
+  {
+    "text": "Can I pay the full balance on the 16th",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.7550838589668274
+    }
+  },
+  {
+    "text": "Can you make the due date for 9/30/2020",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9963620901107788
+    }
+  },
+  {
+    "text": "Change amount and date",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9958748817443848
+    }
+  },
+  {
+    "text": "I just need to extend on more day to avoid 20 deactivation fee",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9463253617286682
+    }
+  },
+  {
+    "text": "I need an extension until Friday",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.986108660697937
+    }
+  },
+  {
+    "text": "I need to change the first payemtn",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9243167042732239
+    }
+  },
+  {
+    "text": "I will like to pay $169.16 on 11/01/2020",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.7995994687080383
+    }
+  },
+  {
+    "text": "I would like to get more time to pay",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9847490787506104
+    }
+  },
+  {
+    "text": "It's not allowing me to edit the payment plan.",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9035338163375854
+    }
+  },
+  {
+    "text": "It's only giving me 10/28",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.45835182070732117
+    }
+  },
+  {
+    "text": "It’s not allowing me to edit the date",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.981701135635376
+    }
+  },
+  {
+    "text": "It’s not let me set edit the payment arrangement",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.40152058005332947
+    }
+  },
+  {
+    "text": "Its not letting me edit my paymeny option for todays payment of $76.11",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9763321280479431
+    }
+  },
+  {
+    "text": "Payment arrangement trouble",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.7758213877677917
+    }
+  },
+  {
+    "text": "Redo it with new bill",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.5413510799407959
+    }
+  },
+  {
+    "text": "Did the payment will go tru Friday 10/2 Instead of Wednesday 9/30",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.999508798122406
+    }
+  },
+  {
+    "text": "The payment date was 10/03. Is there a 5 day grace period",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.6522115468978882
+    }
+  },
+  {
+    "text": "Why it didn't automatically take it out",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "setup_autopay",
+      "confidence": 0.8512901067733765
+    }
+  },
+  {
+    "text": "do I qualify for gogo in flight internet",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.8057880401611328
+    }
+  },
+  {
+    "text": "getting Netflix for free with the Magenta plan. I wanted to know if I am eligible for that.",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.8133822679519653
+    }
+  },
+  {
+    "text": "is there a better plan for me?",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.985312819480896
+    }
+  },
+  {
+    "text": "What is my data limit on this phone line?",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.36370551586151123
+    }
+  },
+  {
+    "text": "can I get netflix on us",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "plan_addons",
+      "confidence": 0.9978471398353577
+    }
+  },
+  {
+    "text": "I would like to know how I can change my sprint account to the 55+ for the lower cost",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.39331695437431335
+    }
+  },
+  {
+    "text": "Is 5G included with the 55+ plan?",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.7664159536361694
+    }
+  },
+  {
+    "text": "can I get the tv hub kit device added to my bill",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.5734747648239136
+    }
+  },
+  {
+    "text": "how do I do the on us offer?",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.36140206456184387
+    }
+  },
+  {
+    "text": "I misplaced my phone",
+    "intent": "lost_phone",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.687964677810669
+    }
+  },
+  {
+    "text": "can I verify the order status of the upgrade phone?",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.7101419568061829
+    }
+  },
+  {
+    "text": "When could i recieve the z flip 2",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.7405539751052856
+    }
+  },
+  {
+    "text": "can i bye this phone",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.632312536239624
+    }
+  },
+  {
+    "text": "Device menu",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "main_menu",
+      "confidence": 0.9446905851364136
+    }
+  },
+  {
+    "text": "I need a new phone but have no idea where to start",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.4541776776313782
+    }
+  },
+  {
+    "text": "I need new phones for all three lines as wondering if I'm eligible for any discounts or savings",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.96709805727005
+    }
+  },
+  {
+    "text": "I want to buy unlocked cell phone",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.7106862664222717
+    }
+  },
+  {
+    "text": "upgrade a line ?",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.9029178619384766
+    }
+  },
+  {
+    "text": "We are looking for wireless ear buds for Android phones",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.34473374485969543
+    }
+  },
+  {
+    "text": "im looking for an i phone for my daugther",
+    "intent": "shop_device_apple",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.7087365388870239
+    }
+  },
+  {
+    "text": "npi",
+    "intent": "shop_device_apple",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9407949447631836
+    }
+  },
+  {
+    "text": "I just want to know what the $20 charge is for. It says on my bill it's for handset, what is that?",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.4188154935836792
+    }
+  },
+  {
+    "text": "I was charged twice for thus months bill",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.8006206750869751
+    }
+  },
+  {
+    "text": "what is my bill status?",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.8230991959571838
+    }
+  },
+  {
+    "text": "i just want to do a one time payment for  the bill that is due today Oct. 2, 2020 for $116.95",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.8782095313072205
+    }
+  },
+  {
+    "text": "I need to pay on my arrangement",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.5458619594573975
+    }
+  },
+  {
+    "text": "I would like to cancel my payment arrangement and pay the bill now.",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9549118876457214
+    }
+  },
+  {
+    "text": "The 78.28 that is due October 7th, could I pay that now?",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.7049245238304138
+    }
+  },
+  {
+    "text": "don't understand half the charges on my bill",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.8945040106773376
+    }
+  },
+  {
+    "text": "unexplained charges on my monthly bill",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.44227778911590576
+    }
+  },
+  {
+    "text": "can I get a breakdown of my bill?",
+    "intent": "bill_view",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.9023937582969666
+    }
+  },
+  {
+    "text": "checking to see the status of my bill",
+    "intent": "bill_view",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.8618353605270386
+    }
+  },
+  {
+    "text": "need help understanding my bill",
+    "intent": "bill_view",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.32557985186576843
+    }
+  },
+  {
+    "text": "fair enough",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.242862269282341
+    }
+  },
+  {
+    "text": "go",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3670719563961029
+    }
+  },
+  {
+    "text": "ok friend",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8838770985603333
+    }
+  },
+  {
+    "text": "ok, I behave now",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.47307080030441284
+    }
+  },
+  {
+    "text": "top",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.9033452868461609
+    }
+  },
+  {
+    "text": "it sux",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9983134269714355
+    }
+  },
+  {
+    "text": "never mind",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999710321426392
+    }
+  },
+  {
+    "text": "Nevermind",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9984024167060852
+    }
+  },
+  {
+    "text": "Hi I have a problem",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.6627535223960876
+    }
+  },
+  {
+    "text": "my name is natasha",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9970412254333496
+    }
+  },
+  {
+    "text": "yo!",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9900423288345337
+    }
+  },
+  {
+    "text": "I'm glad you were able to help me",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.6786866188049316
+    }
+  },
+  {
+    "text": "Not satisfied at all with u our service.",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.8664975166320801
+    }
+  },
+  {
+    "text": "Wonderful! I'm glad you were able to assist me today regarding my account.",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.29245105385780334
+    }
+  },
+  {
+    "text": "Can you help",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "button_need_help",
+      "confidence": 0.4140849709510803
+    }
+  },
+  {
+    "text": "Can I do this over phone",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.8629598021507263
+    }
+  },
+  {
+    "text": "Connection is week",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9389488697052002
+    }
+  },
+  {
+    "text": "I can't edit right now",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9886898398399353
+    }
+  },
+  {
+    "text": "It won't let me edit my card information. Can you take my information and process payment for my account?",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.6027864217758179
+    }
+  },
+  {
+    "text": "It’s telling me i can’t change it",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.8011942505836487
+    }
+  },
+  {
+    "text": "Me gustarÃ­a ver el precio del Samsung s20",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.8994266390800476
+    }
+  },
+  {
+    "text": "Muy buenas noches",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7910061478614807
+    }
+  },
+  {
+    "text": "Puedo obtener una extension ?",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.5326276421546936
+    }
+  },
+  {
+    "text": "Si, Gracias",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.473661869764328
+    }
+  },
+  {
+    "text": "Can I pay less than that and not have the service interrupted",
+    "intent": "worry_shutoff",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.7720770239830017
+    }
+  },
+  {
+    "text": "how can I make my phone stay on?",
+    "intent": "worry_shutoff",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.4512742757797241
+    }
+  },
+  {
+    "text": "Is there a cutoff date for my account",
+    "intent": "worry_shutoff",
+    "intent_prediction": {
+      "name": "line_suspend",
+      "confidence": 0.37447211146354675
+    }
+  },
+  {
+    "text": "Need a price on 1 line unlimited and I have a phone.",
+    "intent": "line_add_byo",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.9869776964187622
+    }
+  },
+  {
+    "text": "I want to learn more about post paid plans",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.5116896629333496
+    }
+  },
+  {
+    "text": "I want to switch three lines over",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.41967540979385376
+    }
+  },
+  {
+    "text": "Goodmorning I’m in need of help towards canceling two lines",
+    "intent": "line_suspend",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.28909507393836975
+    }
+  },
+  {
+    "text": "I was wondering if I could pause my service until Wednesday",
+    "intent": "line_suspend",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.7981030941009521
+    }
+  },
+  {
+    "text": "I would like to make a seasonal suspension",
+    "intent": "line_suspend",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.5076401233673096
+    }
+  },
+  {
+    "text": "Remove  a line",
+    "intent": "line_suspend",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9993159770965576
+    }
+  },
+  {
+    "text": "I like to freeze a line",
+    "intent": "line_suspend",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.9212979078292847
+    }
+  },
+  {
+    "text": "Talk to someone about it",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.40694940090179443
+    }
+  },
+  {
+    "text": "close my account",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "line_suspend",
+      "confidence": 0.5798415541648865
+    }
+  },
+  {
+    "text": "Could you let me talk someone else please",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8183717131614685
+    }
+  },
+  {
+    "text": "how can i get ahold of customer care?  not sales, but customer care?",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "plan_addons",
+      "confidence": 0.31421253085136414
+    }
+  },
+  {
+    "text": "I want to close my account",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "line_suspend",
+      "confidence": 0.668450117111206
+    }
+  },
+  {
+    "text": "I'm switching to verizon",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.9990490078926086
+    }
+  },
+  {
+    "text": "Is there chat support available?",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "tvision",
+      "confidence": 0.39975985884666443
+    }
+  },
+  {
+    "text": "live agent for Sprint billing department",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.3357933759689331
+    }
+  },
+  {
+    "text": "This is to hard and frustrating me",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.4622703790664673
+    }
+  },
+  {
+    "text": "Want to cancel 2 lines n wqnna cut cost of my bill down or ill look elsewhere if u cannot find me a better deal",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.6993471384048462
+    }
+  },
+  {
+    "text": "go back to top",
+    "intent": "main_menu",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.29314008355140686
+    }
+  },
+  {
+    "text": "4 + 2 = ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "shop_device_apple",
+      "confidence": 0.4415903091430664
+    }
+  },
+  {
+    "text": "a movie sounds good",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9972248077392578
+    }
+  },
+  {
+    "text": "and make chicken noises into the phone",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.31411486864089966
+    }
+  },
+  {
+    "text": "can you understand ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9496909379959106
+    }
+  },
+  {
+    "text": "cannot see",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.36481165885925293
+    }
+  },
+  {
+    "text": "chinese ok?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9998205900192261
+    }
+  },
+  {
+    "text": "connect to alexa",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9706477522850037
+    }
+  },
+  {
+    "text": "did i break you",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "tvision",
+      "confidence": 0.4578835964202881
+    }
+  },
+  {
+    "text": "do you have your photo?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.42228472232818604
+    }
+  },
+  {
+    "text": "how about NYC",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.6466350555419922
+    }
+  },
+  {
+    "text": "how can i get them?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "plan_addons",
+      "confidence": 0.292126327753067
+    }
+  },
+  {
+    "text": "I have installed it",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.25689050555229187
+    }
+  },
+  {
+    "text": "I want a new laptop",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7936664819717407
+    }
+  },
+  {
+    "text": "i want caffe",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "plan_addons",
+      "confidence": 0.9207512140274048
+    }
+  },
+  {
+    "text": "I want french cuisine",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.7779519557952881
+    }
+  },
+  {
+    "text": "i want good flycam",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6736515164375305
+    }
+  },
+  {
+    "text": "i want to buy a roomba for my grandson",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bill_shock",
+      "confidence": 0.24737730622291565
+    }
+  },
+  {
+    "text": "i want to fly",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8653265833854675
+    }
+  },
+  {
+    "text": "Let me look around the site!",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9987666010856628
+    }
+  },
+  {
+    "text": "mountain",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.4678703248500824
+    }
+  },
+  {
+    "text": "NA",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9994490742683411
+    }
+  },
+  {
+    "text": "Okay. I just wanted to keep tmobile updated.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.4627169966697693
+    }
+  },
+  {
+    "text": "SEL ME SOMETHING",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.8129143118858337
+    }
+  },
+  {
+    "text": "someone clean my room and surfaces for me . thanks",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.828178882598877
+    }
+  },
+  {
+    "text": "tell me about yourself",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "self_service",
+      "confidence": 0.32166510820388794
+    }
+  },
+  {
+    "text": "tricked  ya",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9996291995048523
+    }
+  },
+  {
+    "text": "where do i get install files for mac?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.8357723951339722
+    }
+  },
+  {
+    "text": "winter is already leaving",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9278815388679504
+    }
+  },
+  {
+    "text": "you have to",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.772337019443512
+    }
+  },
+  {
+    "text": "do you have promo running",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.22401683032512665
+    }
+  },
+  {
+    "text": "EIP balance",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.9768837094306946
+    }
+  },
+  {
+    "text": "I would like to know the remaining balance of my apple watch",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.7450292110443115
+    }
+  },
+  {
+    "text": "rebate status",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.9685550928115845
+    }
+  },
+  {
+    "text": "tv stick",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "tvision",
+      "confidence": 0.9983476400375366
+    }
+  },
+  {
+    "text": "What is my disconnection date",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.2433873564004898
+    }
+  },
+  {
+    "text": "Are u aloud to be late with a payment if u can't pay it by the due date",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9460599422454834
+    }
+  },
+  {
+    "text": "can I pay my bill late",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.9975059628486633
+    }
+  },
+  {
+    "text": "I can't afford my bill",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.49709585309028625
+    }
+  },
+  {
+    "text": "I need more time to pay the pending bill",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.7447629570960999
+    }
+  },
+  {
+    "text": "I need to pay my bill late",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.9966931343078613
+    }
+  },
+  {
+    "text": "I plan to make a payment Friday for $115",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.40964052081108093
+    }
+  },
+  {
+    "text": "Is there a way i can have my payment extended to the 20th without late charges?",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9494433403015137
+    }
+  },
+  {
+    "text": "Need more time to make the payment",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9483763575553894
+    }
+  },
+  {
+    "text": "My debit card has been comprised with an unauthorized charge and the payment scheduled for Friday may get Declined.",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "setup_autopay",
+      "confidence": 0.37138304114341736
+    }
+  },
+  {
+    "text": "Need to edit payment arrangement",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9991790056228638
+    }
+  },
+  {
+    "text": "Yes my Visa had to be cancelled due to fraudulent  activity yesterday so I'm trying to  pay my bill today with another card",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.7256907224655151
+    }
+  },
+  {
+    "text": "when are the pay date",
+    "intent": "pa_view_existing",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9970333576202393
+    }
+  },
+  {
+    "text": "And then the final payment on the 7th of November",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9988975524902344
+    }
+  },
+  {
+    "text": "Can I cancel payment arrangement that is due tomorrow and pay that amount next Thursday?",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9975627660751343
+    }
+  },
+  {
+    "text": "I can’t afford the $404. Payment at this moment",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9302282929420471
+    }
+  },
+  {
+    "text": "I don't have what's due tomorrow",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.3397740125656128
+    }
+  },
+  {
+    "text": "I set up a payment arrangement, but the second amount is way to much.",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.8115073442459106
+    }
+  },
+  {
+    "text": "I was seeing if I can push it to next week.",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9999792575836182
+    }
+  },
+  {
+    "text": "Pay later",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.8822827935218811
+    }
+  },
+  {
+    "text": "push back payment arrangement date",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9981638789176941
+    }
+  },
+  {
+    "text": "Extend the October 3 payment to October 5",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9650409817695618
+    }
+  },
+  {
+    "text": "I don't have funds in my account until the 2nd, can i do it then",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.5857449173927307
+    }
+  },
+  {
+    "text": "I need my payment to come out tomorrow",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.4133506715297699
+    }
+  },
+  {
+    "text": "I need to change 10/05 payment until 10/08",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9274156093597412
+    }
+  },
+  {
+    "text": "I need to extend the payment arrangement to Oct 9 and Oct 23",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9904642105102539
+    }
+  },
+  {
+    "text": "I need to see if I can get the remaining balance of $115 extended until Friday",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.7252857089042664
+    }
+  },
+  {
+    "text": "I want to extend until Friday",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.8655482530593872
+    }
+  },
+  {
+    "text": "Can I pay half my balance on 10/9 and second half on 10/16?",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.6851685643196106
+    }
+  },
+  {
+    "text": "I truly just need like 2 -3 more days. My hours at work got cut alot",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7897517085075378
+    }
+  },
+  {
+    "text": "I'm trying to change my payment arrangement, but it won't let me",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.48216766119003296
+    }
+  },
+  {
+    "text": "Need to cancel the one for the 16 need a later date",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9860974550247192
+    }
+  },
+  {
+    "text": "Ok will it be charged on the 8th? Just making sure it’s no sooner or later",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.4360305070877075
+    }
+  },
+  {
+    "text": "when will this hit my account?",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.5570816993713379
+    }
+  },
+  {
+    "text": "question about my current plan",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.5660219192504883
+    }
+  },
+  {
+    "text": "what does my t-mobile service come with",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.19157984852790833
+    }
+  },
+  {
+    "text": "dO YOU HAVE A PHON EAND PLAN THAT IS NO MORE THAN 25 A MONTH?",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.41129183769226074
+    }
+  },
+  {
+    "text": "How much would my monthly payments will be for the 55yrs old plan?",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.5743591785430908
+    }
+  },
+  {
+    "text": "just trying to see if there's a better plan for me?",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.9018588066101074
+    }
+  },
+  {
+    "text": "can I use my phone internationally for one day without charge?",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.22985613346099854
+    }
+  },
+  {
+    "text": "How do i add unlimited lte hotspot to my plan",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.751724123954773
+    }
+  },
+  {
+    "text": "I would like to add internationl calling to my line",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.9602949619293213
+    }
+  },
+  {
+    "text": "I would like to discontinue the 6gb on 9045764126.take it back down to the plan 4gb please",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.1688944697380066
+    }
+  },
+  {
+    "text": "Lost phone, is it possible to locate its location remotely? Somewhere near our house",
+    "intent": "lost_phone",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9389758706092834
+    }
+  },
+  {
+    "text": "Please cancel line 561 727-0239.  Phone has been lost for a year.",
+    "intent": "lost_phone",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.4466184079647064
+    }
+  },
+  {
+    "text": "cancel device order",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9659462571144104
+    }
+  },
+  {
+    "text": "I would like to know if I can make changes to my order",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.5139425992965698
+    }
+  },
+  {
+    "text": "How much is it going to cost me to get a galaxy note 20 with a new plan and number?",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.7403895854949951
+    }
+  },
+  {
+    "text": "I am trying to get a new phone after I paid off the remaining balance of my current phone",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.8180481195449829
+    }
+  },
+  {
+    "text": "I need a hot spot device with unlimited service",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.32257357239723206
+    }
+  },
+  {
+    "text": "The cost of add a table to my plan.",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.8184911608695984
+    }
+  },
+  {
+    "text": "Im in San antonio (78345 area) and trying to see what LOCAL channels you offer but not seeing any.",
+    "intent": "tvision",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.5356252193450928
+    }
+  },
+  {
+    "text": "will there be an app I can install directly on my samsung smart TV?",
+    "intent": "tvision",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.9588775038719177
+    }
+  },
+  {
+    "text": "Nah I just wanna know what all the hidden fees are",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5902385711669922
+    }
+  },
+  {
+    "text": "can I pay my bill? I have an arrangement",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.6890665888786316
+    }
+  },
+  {
+    "text": "Can you charge my visa on 9/14 for the $133.79 that was due 9/13?",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9059401750564575
+    }
+  },
+  {
+    "text": "charged way too much each month",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "lost_phone",
+      "confidence": 0.5648910999298096
+    }
+  },
+  {
+    "text": "my bill is incredibly expensive",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.607795238494873
+    }
+  },
+  {
+    "text": "line by line of my bill",
+    "intent": "bill_view",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.3024085760116577
+    }
+  },
+  {
+    "text": "look at my bill",
+    "intent": "bill_view",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.6783568859100342
+    }
+  },
+  {
+    "text": "alright",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999613761901855
+    }
+  },
+  {
+    "text": "alright, cool",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9997814297676086
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.9914589524269104
+    }
+  },
+  {
+    "text": "done",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.782619833946228
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8102073669433594
+    }
+  },
+  {
+    "text": "perfect",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "tvision",
+      "confidence": 0.8629931807518005
+    }
+  },
+  {
+    "text": "nehi",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.6049857139587402
+    }
+  },
+  {
+    "text": "none of them",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9995290637016296
+    }
+  },
+  {
+    "text": "how are you doing?",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999499320983887
+    }
+  },
+  {
+    "text": "How can we assist you today?",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.4030863344669342
+    }
+  },
+  {
+    "text": "we're here to help! how can we assist you?",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.31558459997177124
+    }
+  },
+  {
+    "text": "We're willing to help! How can we help you?",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9254939556121826
+    }
+  },
+  {
+    "text": "what's up?",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.2789442539215088
+    }
+  },
+  {
+    "text": "Great customer service as always",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9765151143074036
+    }
+  },
+  {
+    "text": "I appreciate you reaching out today and allowing us to resolve #AllTheThings! Enjoy the rest of your week knowing T-Mobile took care of you today. #ServiceYouCanRecommend",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.5398797392845154
+    }
+  },
+  {
+    "text": "Robots are to slow good bye",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.8797958493232727
+    }
+  },
+  {
+    "text": "That will be all for today.",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9232866168022156
+    }
+  },
+  {
+    "text": "You do the same",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.413167804479599
+    }
+  },
+  {
+    "text": "you solved my problem",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.7502689361572266
+    }
+  },
+  {
+    "text": "Ok I check tomorrow. Thx",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.7865038514137268
+    }
+  },
+  {
+    "text": "Is the site having trouble? I can't login to bill pay",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.5929071307182312
+    }
+  },
+  {
+    "text": "no entiendo ese mensaje que me mandaron",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.388386070728302
+    }
+  },
+  {
+    "text": "Saludos.",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.31659507751464844
+    }
+  },
+  {
+    "text": "bringing my device from verizon",
+    "intent": "line_add_byo",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9612156748771667
+    }
+  },
+  {
+    "text": "Buy a phone for a new line",
+    "intent": "line_add_byo",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.9991981983184814
+    }
+  },
+  {
+    "text": "New line new device",
+    "intent": "line_add_byo",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.9911408424377441
+    }
+  },
+  {
+    "text": "Is the deal for iPhone 7 trade in for iPhone 11 $500 still available. Just open new line and no porting?",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "shop_device_apple",
+      "confidence": 0.7358497381210327
+    }
+  },
+  {
+    "text": "new service",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.22869989275932312
+    }
+  },
+  {
+    "text": "I have a question about suspending my payments for a certain amount of days due to not able to use service where I’m currently at",
+    "intent": "line_suspend",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.19316616654396057
+    }
+  },
+  {
+    "text": "I don't want to talk to a robot",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7994745373725891
+    }
+  },
+  {
+    "text": "I want to remove a line",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "line_suspend",
+      "confidence": 0.8644124269485474
+    }
+  },
+  {
+    "text": "I would like to report racism in one of your locations",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.3869423270225525
+    }
+  },
+  {
+    "text": "Please get a supervisor on the line for me.  I've been waiting over 30 minutes and have not been transferred yet.",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.2863006591796875
+    }
+  },
+  {
+    "text": "what is the customer service phone number",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.8923298716545105
+    }
+  },
+  {
+    "text": "2040 cargo",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.2719971835613251
+    }
+  },
+  {
+    "text": "again?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8977659940719604
+    }
+  },
+  {
+    "text": "Are u still there",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.6505663394927979
+    }
+  },
+  {
+    "text": "are you russian?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9469476938247681
+    }
+  },
+  {
+    "text": "are you vegan",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7690472602844238
+    }
+  },
+  {
+    "text": "chgfhgh",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.944588303565979
+    }
+  },
+  {
+    "text": "Find nearest pizzahut",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.4940740168094635
+    }
+  },
+  {
+    "text": "german?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9358636736869812
+    }
+  },
+  {
+    "text": "Hi, I shipped off the Galaxy s20 Plus, but it is taking a while to reach you. When it finally arrives, how will the credits be allocated?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.8201032876968384
+    }
+  },
+  {
+    "text": "how to go to newyork ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.5861152410507202
+    }
+  },
+  {
+    "text": "I still there?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.45844128727912903
+    }
+  },
+  {
+    "text": "I wan to buy a plane",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.979044497013092
+    }
+  },
+  {
+    "text": "i wanna party",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.9889711737632751
+    }
+  },
+  {
+    "text": "If I pay only 200$ of my Arrangement will my phones get shut off?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.7751464247703552
+    }
+  },
+  {
+    "text": "Is there a known issue with the new iPhone and group texts with android? I’m not getting all my messages",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.4141952693462372
+    }
+  },
+  {
+    "text": "Is there anything I can do. I use my phone for work",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.996117353439331
+    }
+  },
+  {
+    "text": "more",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.23947125673294067
+    }
+  },
+  {
+    "text": "my name k",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.2859867215156555
+    }
+  },
+  {
+    "text": "Now?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.6521508693695068
+    }
+  },
+  {
+    "text": "personal or work?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9401800632476807
+    }
+  },
+  {
+    "text": "sing me a song",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9969791173934937
+    }
+  },
+  {
+    "text": "tell me more about next best action",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.4512569010257721
+    }
+  },
+  {
+    "text": "the one that is better than you",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.5887664556503296
+    }
+  },
+  {
+    "text": "turn off my stove",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.470994234085083
+    }
+  },
+  {
+    "text": "what is the real use case where we can use this one",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.4736741781234741
+    }
+  },
+  {
+    "text": "WHAT never mind I have to go back to work",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.45893436670303345
+    }
+  },
+  {
+    "text": "what's gingerale",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.4672820568084717
+    }
+  },
+  {
+    "text": "why do you need that?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "why",
+      "confidence": 0.8770159482955933
+    }
+  },
+  {
+    "text": "why sky is blue?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "why",
+      "confidence": 0.7539747953414917
+    }
+  },
+  {
+    "text": "would you like some water",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.3549547493457794
+    }
+  },
+  {
+    "text": "changing service to you",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.49684035778045654
+    }
+  },
+  {
+    "text": "i want to pay off my device equipment balance?",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.9991371631622314
+    }
+  },
+  {
+    "text": "I'm trying to submit a claim for reimbursment",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7743764519691467
+    }
+  },
+  {
+    "text": "I can't pay my bill this month, what are my options?",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.577881932258606
+    }
+  },
+  {
+    "text": "i want to see if i can get a payment arrangement",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_view_existing",
+      "confidence": 0.5016151666641235
+    }
+  },
+  {
+    "text": "Needed to restore my service and set up payment arrangement",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.29865139722824097
+    }
+  },
+  {
+    "text": "so sorry I can't make my regular payment is there some extension?",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.8120494484901428
+    }
+  },
+  {
+    "text": "I simply want to change my bank account nbr",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.2170131653547287
+    }
+  },
+  {
+    "text": "I switched bank accounts and need to update the payment on file for my payment arrangement on October 13",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9296290278434753
+    }
+  },
+  {
+    "text": "I wanna use a different card on my bill extension",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.5826089978218079
+    }
+  },
+  {
+    "text": "I am very confused, I think I made a payment arrangement to avoid service interruption but it is VERY confusing, can you see if I did?",
+    "intent": "pa_view_existing",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.7575477957725525
+    }
+  },
+  {
+    "text": "I want to make sure my account is on the payment arrangement I made",
+    "intent": "pa_view_existing",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.30522051453590393
+    }
+  },
+  {
+    "text": "I can’t make my payment on 10/06/2020",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.8513361811637878
+    }
+  },
+  {
+    "text": "I had a schedule payment recently but we did not have enough funds for the payment...",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.4583543539047241
+    }
+  },
+  {
+    "text": "I haven’t get my paycheck from work",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.6162257194519043
+    }
+  },
+  {
+    "text": "I need to set a lower arrangement",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9444441795349121
+    }
+  },
+  {
+    "text": "Need more time to pay.",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.6681671738624573
+    }
+  },
+  {
+    "text": "Change the pay agreement for this Friday",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.4654184579849243
+    }
+  },
+  {
+    "text": "Change the payment of 155.58 to my credit card on file and make the payment date 10/16/2020",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.7220056653022766
+    }
+  },
+  {
+    "text": "I don't want that one I picked the wrong day",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.5909530520439148
+    }
+  },
+  {
+    "text": "I only get paid on the 15th and 30th",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9961189031600952
+    }
+  },
+  {
+    "text": "I want to edit the date and the app will not allow a date change.",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9165699481964111
+    }
+  },
+  {
+    "text": "I will have to pay my October 6 bill on the 15th",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.7861920595169067
+    }
+  },
+  {
+    "text": "It doesn’t let me for the 24th",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.3724296987056732
+    }
+  },
+  {
+    "text": "It’s not letting my choose October 15th",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9242981672286987
+    }
+  },
+  {
+    "text": "I couldn't edit payment method",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.8705950975418091
+    }
+  },
+  {
+    "text": "i don't need to create a new payment arrangement.  we need to fix the old one",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.42618200182914734
+    }
+  },
+  {
+    "text": "I lost my job abs won’t be able to pay till Friday",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.6217306852340698
+    }
+  },
+  {
+    "text": "I need a lower payment for this month or I’ll have to pay my phones off and switch services",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.24711212515830994
+    }
+  },
+  {
+    "text": "I need more time to pay my past due balance",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.6602529883384705
+    }
+  },
+  {
+    "text": "I need to extend it through tomorrow Oct 2",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9999707937240601
+    }
+  },
+  {
+    "text": "I need to extend the payment arrangement",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9091756343841553
+    }
+  },
+  {
+    "text": "I need to make a different day,  it wont go through today",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.5036646127700806
+    }
+  },
+  {
+    "text": "i was calling because I was trying to see if i can change my payment arrangement",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9241493344306946
+    }
+  },
+  {
+    "text": "I was told that I can pay what I can today and the rest on 09/15",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.4643886387348175
+    }
+  },
+  {
+    "text": "Make another payment arrangement cause I don’t have the money in my account to pay it",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9875946044921875
+    }
+  },
+  {
+    "text": "More arrangement options",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.39878159761428833
+    }
+  },
+  {
+    "text": "I know that I also have paid the first arrangement. But I still see and are getting messages  that I have not",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.3818008005619049
+    }
+  },
+  {
+    "text": "I made a payment on Friday that was supposed to been made today it's not showing",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.6358654499053955
+    }
+  },
+  {
+    "text": "It was suppose to come out of my account today but it didn't",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.6611887216567993
+    }
+  },
+  {
+    "text": "It was supposed to come out today not sure if it’s been charged yet wanting an update to see if you guys have charged my account the $72 and some change for the arrangement I previously made",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.2198268473148346
+    }
+  },
+  {
+    "text": "Can I get tvision with my plan",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "tvision",
+      "confidence": 0.9974240064620972
+    }
+  },
+  {
+    "text": "Does my plan cover unlimited mobile hotspot? Thank you.",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.6957709193229675
+    }
+  },
+  {
+    "text": "can I upgrade my plan",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.4961449205875397
+    }
+  },
+  {
+    "text": "Looking for information for phone service offered by t mobile",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.34806883335113525
+    }
+  },
+  {
+    "text": "do I have apple care?",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "shop_device_apple",
+      "confidence": 0.7610491514205933
+    }
+  },
+  {
+    "text": "get apple care",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "shop_device_apple",
+      "confidence": 0.9701957106590271
+    }
+  },
+  {
+    "text": "I keep getting scam calls and want them stopped",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5996139049530029
+    }
+  },
+  {
+    "text": "Would like to order two of the Timex Family Connect watches",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.3308468461036682
+    }
+  },
+  {
+    "text": "Hi just wondering if you can get this on a roku box",
+    "intent": "tvision",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.44407784938812256
+    }
+  },
+  {
+    "text": "is showtime included",
+    "intent": "tvision",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.9466220736503601
+    }
+  },
+  {
+    "text": "Is there a dvr option?",
+    "intent": "tvision",
+    "intent_prediction": {
+      "name": "main_menu",
+      "confidence": 0.6506686210632324
+    }
+  },
+  {
+    "text": "we are on xfinity and I want to cancel them. How easy is it to install T Live and Vibe?",
+    "intent": "tvision",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9222118258476257
+    }
+  },
+  {
+    "text": "What are the 30 channels  do you get",
+    "intent": "tvision",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.28880858421325684
+    }
+  },
+  {
+    "text": "I don't understand why I am charged one time charge pymt. I paid full amount last month",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "bill_shock",
+      "confidence": 0.628152072429657
+    }
+  },
+  {
+    "text": "Need to talk to customer support for billing",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.999492883682251
+    }
+  },
+  {
+    "text": "troubleshooting my bill",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.7303584814071655
+    }
+  },
+  {
+    "text": "Can I pay the first half of the payment agreement days before the due date of October 9th?",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9573804140090942
+    }
+  },
+  {
+    "text": "I was wondering if I could still make that payment arrangement",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.9013667702674866
+    }
+  },
+  {
+    "text": "charges I didn't sign up for on my bill",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "bill_general",
+      "confidence": 0.9638328552246094
+    }
+  },
+  {
+    "text": "I am  being  charged  the wrong amount.",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.4464787244796753
+    }
+  },
+  {
+    "text": "I looked at the bill to see why it was almost $100 more",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.7548159956932068
+    }
+  },
+  {
+    "text": "i need a billing specialist to explain a charge on my bill",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.4216594994068146
+    }
+  },
+  {
+    "text": "I do not understand. I need help",
+    "intent": "button_need_help",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6315864324569702
+    }
+  },
+  {
+    "text": "i am!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9914856553077698
+    }
+  },
+  {
+    "text": "i want that",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.879738450050354
+    }
+  },
+  {
+    "text": "k",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999688863754272
+    }
+  },
+  {
+    "text": "not bad",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9712555408477783
+    }
+  },
+  {
+    "text": "really",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9021393656730652
+    }
+  },
+  {
+    "text": "That would be great",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.5718410015106201
+    }
+  },
+  {
+    "text": "yep, will do thank you",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9987978339195251
+    }
+  },
+  {
+    "text": "absolutely not",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9075255990028381
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9355889558792114
+    }
+  },
+  {
+    "text": "I don't want an arrangement",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.4855944514274597
+    }
+  },
+  {
+    "text": "na",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9999726414680481
+    }
+  },
+  {
+    "text": "stop it, i do not care!!!",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.5677371621131897
+    }
+  },
+  {
+    "text": "Hellllloooo",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6363990306854248
+    }
+  },
+  {
+    "text": "Hi there! I appreciate your patience and staying online",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.46988576650619507
+    }
+  },
+  {
+    "text": "Hi, nice to meet you",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.7896760106086731
+    }
+  },
+  {
+    "text": "All is good now, thanks!",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9357955455780029
+    }
+  },
+  {
+    "text": "Have a good morning",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.9955792427062988
+    }
+  },
+  {
+    "text": "I just want to make sure that everything is covered today, aside from this, is there anything else I can still help you with?",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9996287226676941
+    }
+  },
+  {
+    "text": "no you can sign off now",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6904721856117249
+    }
+  },
+  {
+    "text": "no, thank you!",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9996880888938904
+    }
+  },
+  {
+    "text": "Thank you, no worries",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9957751035690308
+    }
+  },
+  {
+    "text": "Thank you! No need to respond, I will update you as I can.",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.3074009120464325
+    }
+  },
+  {
+    "text": "I am roming",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.39199721813201904
+    }
+  },
+  {
+    "text": "I can't do this on phone",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.7622648477554321
+    }
+  },
+  {
+    "text": "I don't see anything",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9995320439338684
+    }
+  },
+  {
+    "text": "I'm trying something is wrong with the site",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.3372352421283722
+    }
+  },
+  {
+    "text": "I've been trying to setup a payment arrangement and for some reason it's not working , it's saying\"we got crossed some how try again\"",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9890586137771606
+    }
+  },
+  {
+    "text": "Its saying technical difficulties again",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "payment_processing",
+      "confidence": 0.47509974241256714
+    }
+  },
+  {
+    "text": "Website is down",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.5531491041183472
+    }
+  },
+  {
+    "text": "I'm sorry but I'm looking for more clarification",
+    "intent": "why",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9604434370994568
+    }
+  },
+  {
+    "text": "Cuanto cuesta 2 lineas",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.8923743367195129
+    }
+  },
+  {
+    "text": "Eres tu Nelson?",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "tvision",
+      "confidence": 0.9625220894813538
+    }
+  },
+  {
+    "text": "I don’t want to be disconnected at midnight my check doesn’t come until 3a",
+    "intent": "worry_shutoff",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.8557056784629822
+    }
+  },
+  {
+    "text": "I was told I could pay 86.21 to keep my phone on. Is that right?",
+    "intent": "worry_shutoff",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.9700953364372253
+    }
+  },
+  {
+    "text": "If I don’t pay the 92.44 today is my phone going to shit off",
+    "intent": "worry_shutoff",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.931397020816803
+    }
+  },
+  {
+    "text": "I'm already a member and like to add a phone I have already with free line. At times I can let my dad use when he goes out",
+    "intent": "line_add_byo",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.9276794195175171
+    }
+  },
+  {
+    "text": "I need two iPhones two lines unlimited at the bbest  price possible",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.5165016055107117
+    }
+  },
+  {
+    "text": "Buy phone for new line",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.5958249568939209
+    }
+  },
+  {
+    "text": "go away this is useless",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9972190856933594
+    }
+  },
+  {
+    "text": "Heip",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.8758800625801086
+    }
+  },
+  {
+    "text": "I got disconnected from my chat",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "line_suspend",
+      "confidence": 0.5639121532440186
+    }
+  },
+  {
+    "text": "I need to talk to someone due to I was on a payment arrangement That was supposed to come out on Friday",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9035723805427551
+    }
+  },
+  {
+    "text": "Alright take your time",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.974362313747406
+    }
+  },
+  {
+    "text": "are you dev?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.5598405599594116
+    }
+  },
+  {
+    "text": "CALL THE POLICE",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9388380646705627
+    }
+  },
+  {
+    "text": "can you cheer me up",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.41098150610923767
+    }
+  },
+  {
+    "text": "Cars",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.3576200008392334
+    }
+  },
+  {
+    "text": "common, just try",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.6927090287208557
+    }
+  },
+  {
+    "text": "Crypto currency it’s bit coin",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.8181143403053284
+    }
+  },
+  {
+    "text": "Detail only\\nI like paper bill at home",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.7191290259361267
+    }
+  },
+  {
+    "text": "doctor",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.7002148032188416
+    }
+  },
+  {
+    "text": "does anyone want me to walk their dogs",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.5112849473953247
+    }
+  },
+  {
+    "text": "genocide",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.6819700002670288
+    }
+  },
+  {
+    "text": "how",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.8262290954589844
+    }
+  },
+  {
+    "text": "how can i test this",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.4221532642841339
+    }
+  },
+  {
+    "text": "i am qq",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.36477088928222656
+    }
+  },
+  {
+    "text": "ljljl",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9466561079025269
+    }
+  },
+  {
+    "text": "me or my son-in-law",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.8991950154304504
+    }
+  },
+  {
+    "text": "Need to look up past calls and txts",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9668512940406799
+    }
+  },
+  {
+    "text": "oops",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9999542236328125
+    }
+  },
+  {
+    "text": "other",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "button_shop_other_device",
+      "confidence": 0.8606618046760559
+    }
+  },
+  {
+    "text": "Primary account holder change",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.3606996536254883
+    }
+  },
+  {
+    "text": "Recharge",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.9925515055656433
+    }
+  },
+  {
+    "text": "someone call the police i think the bot died",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.999713122844696
+    }
+  },
+  {
+    "text": "this is stupid",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.28395116329193115
+    }
+  },
+  {
+    "text": "what do you think about Stanley Ramirez?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.5522769093513489
+    }
+  },
+  {
+    "text": "what is a discourse?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.921143651008606
+    }
+  },
+  {
+    "text": "Won't you ask me how I am?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.8252244591712952
+    }
+  },
+  {
+    "text": "you will know it from the single red rose it carries between its teeth",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.4644125998020172
+    }
+  },
+  {
+    "text": "Hello, I am thinking of switching 5 lines from Verizon to T-Mobile and have some questions.",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.8068148493766785
+    }
+  },
+  {
+    "text": "i would love to join t mobile",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.32330524921417236
+    }
+  },
+  {
+    "text": "Looking to change internet",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.4264122545719147
+    }
+  },
+  {
+    "text": "New customer",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9982599020004272
+    }
+  },
+  {
+    "text": "question about switching carriers",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.29091784358024597
+    }
+  },
+  {
+    "text": "can I have till Friday to pay my $84 please",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.5089045763015747
+    }
+  },
+  {
+    "text": "Can I set up payment arrangements through here?",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9886330366134644
+    }
+  },
+  {
+    "text": "I am due tomorrow and cannot pay. I need to make arrangement for that bill please",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9658638834953308
+    }
+  },
+  {
+    "text": "I'm having trouble paying my bill.",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.7034997940063477
+    }
+  },
+  {
+    "text": "is there a way to pay my bill in installements?",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.9891632199287415
+    }
+  },
+  {
+    "text": "is there a way we can extend my due date until Tuesday?",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.998416006565094
+    }
+  },
+  {
+    "text": "is there any kind of grace period after the due date or will my service be shut off",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.8044295907020569
+    }
+  },
+  {
+    "text": "How can I see what bank account I use i can't see it",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.6074938774108887
+    }
+  },
+  {
+    "text": "I have 2 cc saved and I need to remove the one ending in 0377 and process the payment for 166.20 on cc ending 3230",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.6687074899673462
+    }
+  },
+  {
+    "text": "I set up a payment arrangement and was trying to look at it to double check dates and amounts but can't find it.",
+    "intent": "pa_view_existing",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9231389164924622
+    }
+  },
+  {
+    "text": "I want to see how much imma get charge in my recent payment",
+    "intent": "pa_view_existing",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.6408195495605469
+    }
+  },
+  {
+    "text": "view payment arrangement",
+    "intent": "pa_view_existing",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.9996729493141174
+    }
+  },
+  {
+    "text": "Can I get an extension?",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.9932523965835571
+    }
+  },
+  {
+    "text": "Extend the the date.",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9999171495437622
+    }
+  },
+  {
+    "text": "I can only pay half",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.4480277895927429
+    }
+  },
+  {
+    "text": "I cannot pay the second arrangement until 10/16",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.6802297234535217
+    }
+  },
+  {
+    "text": "I CANT PAY TODAY",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.5538691878318787
+    }
+  },
+  {
+    "text": "I don't have anything to pay today",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4735332429409027
+    }
+  },
+  {
+    "text": "I have a payment arrangement set on my account but unfortunately we can't make the payment",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.7558122277259827
+    }
+  },
+  {
+    "text": "I lost my job and cannot pay on my arrangement",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4577998220920563
+    }
+  },
+  {
+    "text": "I need more time on the arrangement",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9902132153511047
+    }
+  },
+  {
+    "text": "I'm not able to pay the on the arrangement I set up",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.5870176553726196
+    }
+  },
+  {
+    "text": "Need an extension on payment arrangement",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.9812451601028442
+    }
+  },
+  {
+    "text": "But have to push it till tomorrow",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9108558297157288
+    }
+  },
+  {
+    "text": "can I moved the arrangement for 10/14",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9860076308250427
+    }
+  },
+  {
+    "text": "Can I payments arrangement for next Friday",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.9340950846672058
+    }
+  },
+  {
+    "text": "it is not allowing me to set payment on September 27.",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.7167695164680481
+    }
+  },
+  {
+    "text": "Need to change the 10-4 to 10-7",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9769709706306458
+    }
+  },
+  {
+    "text": "see if i can make a later dat on my payment arrangements",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.8858086466789246
+    }
+  },
+  {
+    "text": "Can you extend to the end of month",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9513037800788879
+    }
+  },
+  {
+    "text": "Delete payment arrangement",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.8618212342262268
+    }
+  },
+  {
+    "text": "I know my installment was due on the 29th of September but I don't get paid until Tuesday.",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9650068879127502
+    }
+  },
+  {
+    "text": "I made I payment arrangement but I cannot pay the amount due on Monday",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.997117280960083
+    }
+  },
+  {
+    "text": "I need to reschedule my payment",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9991686344146729
+    }
+  },
+  {
+    "text": "I set pa incorrectly",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "plan_addons",
+      "confidence": 0.7677149176597595
+    }
+  },
+  {
+    "text": "I want to set another arrangement",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.991641104221344
+    }
+  },
+  {
+    "text": "I would like to change my ardangement and pay it now",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.8761048316955566
+    }
+  },
+  {
+    "text": "Yes can I extent it until Friday",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9919677376747131
+    }
+  },
+  {
+    "text": "Can you stop that payment",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.5842660069465637
+    }
+  },
+  {
+    "text": "I don't want a payment arrangement .... I just paid with my debit card and want to know if you received it",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.5214803814888
+    }
+  },
+  {
+    "text": "I just paid 125 past due balance",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.7659957408905029
+    }
+  },
+  {
+    "text": "I wanted make sure the payment today gotten paid .it says on my home page that I need to make a payment but I already have",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.8917363286018372
+    }
+  },
+  {
+    "text": "so if I just did the payment arrangement again will I still be charged on the 9/30",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9015691876411438
+    }
+  },
+  {
+    "text": "how many minutes are on my account plan?",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.3626965284347534
+    }
+  },
+  {
+    "text": "does my plan have in flight internet",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.9980111718177795
+    }
+  },
+  {
+    "text": "i got a promotion by mail fir 55+ can i do it online or do i have to call",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9731383323669434
+    }
+  },
+  {
+    "text": "Looking at switching plans. Please help me with my decision.",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.6799710392951965
+    }
+  },
+  {
+    "text": "what is the max high speed data plan?",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.6770116090774536
+    }
+  },
+  {
+    "text": "how i can get Netflex sign up",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.8819330334663391
+    }
+  },
+  {
+    "text": "north america stateside international talk",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "tvision",
+      "confidence": 0.3035701513290405
+    }
+  },
+  {
+    "text": "set up scam blocker",
+    "intent": "plan_addons",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.8606225252151489
+    }
+  },
+  {
+    "text": "Just trying to update my existing autopay credit card information, but impossible to do online - without cancelling autopay and signing up again.  Don't want to do that.  I just want to change an expiration date.  Can't believe you can't do this online.",
+    "intent": "setup_autopay",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.5351712107658386
+    }
+  },
+  {
+    "text": "update autopay with new card",
+    "intent": "setup_autopay",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.7013664245605469
+    }
+  },
+  {
+    "text": "I need my billing date for the 1 of each month",
+    "intent": "lost_phone",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.32786983251571655
+    }
+  },
+  {
+    "text": "Do you have Google pixels",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.2291726917028427
+    }
+  },
+  {
+    "text": "I have 5 lines and in need of a phone",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.9983865022659302
+    }
+  },
+  {
+    "text": "I want to get my daughter a new phone.",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.4862282872200012
+    }
+  },
+  {
+    "text": "looking for Basic Flip phone for seniors",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.7158899307250977
+    }
+  },
+  {
+    "text": "enrolling in internet service",
+    "intent": "shop_device_apple",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.9980632662773132
+    }
+  },
+  {
+    "text": "I have an existing line. can i take advantage of the iphone 12  trade in promotion?",
+    "intent": "shop_device_apple",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.8836849331855774
+    }
+  },
+  {
+    "text": "looking to upgrade my apple watch",
+    "intent": "shop_device_apple",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.686271071434021
+    }
+  },
+  {
+    "text": "are there plans for it to be on roku",
+    "intent": "tvision",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.6378730535507202
+    }
+  },
+  {
+    "text": "I was looking at the T-Mobile tv",
+    "intent": "tvision",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.34183216094970703
+    }
+  },
+  {
+    "text": "bill",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.9694585800170898
+    }
+  },
+  {
+    "text": "I don't understand the charges on my bill",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "bill_shock",
+      "confidence": 0.9677611589431763
+    }
+  },
+  {
+    "text": "I have questions regarding my bill",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.9994924068450928
+    }
+  },
+  {
+    "text": "more information on my monthly bill",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.40208539366722107
+    }
+  },
+  {
+    "text": "note on my bill",
+    "intent": "bill_general",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.3734884262084961
+    }
+  },
+  {
+    "text": "I have a payment plan of setup for  due today and I can't figure out how to pay it",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.3880038857460022
+    }
+  },
+  {
+    "text": "I was notified I have to make immediate payment",
+    "intent": "bill_pay",
+    "intent_prediction": {
+      "name": "line_suspend",
+      "confidence": 0.2255353480577469
+    }
+  },
+  {
+    "text": "Charging  unnecessary amounts",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.37910571694374084
+    }
+  },
+  {
+    "text": "my bill isn't correct",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.5567590594291687
+    }
+  },
+  {
+    "text": "this bill is more than you promised when I signed up",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "tvision",
+      "confidence": 0.25795790553092957
+    }
+  },
+  {
+    "text": "This bill is too expensive",
+    "intent": "bill_shock",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.5024092197418213
+    }
+  },
+  {
+    "text": "I can send me a copy of my bill please",
+    "intent": "bill_view",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.49144062399864197
+    }
+  },
+  {
+    "text": "what amount should I be paying?",
+    "intent": "bill_view",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.5288401246070862
+    }
+  },
+  {
+    "text": "considering",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.5941349864006042
+    }
+  },
+  {
+    "text": "going super well",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "plan_addons",
+      "confidence": 0.535019040107727
+    }
+  },
+  {
+    "text": "More a less",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.9815382957458496
+    }
+  },
+  {
+    "text": "Ok let's start",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.8854377865791321
+    }
+  },
+  {
+    "text": "sort of",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4327372610569
+    }
+  },
+  {
+    "text": "yeah, why not",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "why",
+      "confidence": 0.8792149424552917
+    }
+  },
+  {
+    "text": "yop",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.8874180912971497
+    }
+  },
+  {
+    "text": "I believe I chose the wrong one",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.2930419445037842
+    }
+  },
+  {
+    "text": "no you did it wrong",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9842628240585327
+    }
+  },
+  {
+    "text": "Aloha",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.6961685419082642
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greeting",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.8252445459365845
+    }
+  },
+  {
+    "text": "I'll take it from here. Have a good Monday!",
+    "intent": "closing",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.5657556056976318
+    }
+  },
+  {
+    "text": "I just set it up on my own. Now scheduled for 9/28.  Thank you!",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.2772475779056549
+    }
+  },
+  {
+    "text": "Thank you guys I was able to make the payment arrangement",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.8579918742179871
+    }
+  },
+  {
+    "text": "That will be all",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.9839696288108826
+    }
+  },
+  {
+    "text": "Frozen",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7339337468147278
+    }
+  },
+  {
+    "text": "I'm unable to add a payment for the payment arrangement I'm setting up",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9706016182899475
+    }
+  },
+  {
+    "text": "It wont let me set up a payment arrangement",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.8185287117958069
+    }
+  },
+  {
+    "text": "It worked fine last month and now things have changed.  Its stuck on what looks like loading information but never completes it.",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.8165690302848816
+    }
+  },
+  {
+    "text": "Payment arrangements is just spinning around",
+    "intent": "broken",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.43743985891342163
+    }
+  },
+  {
+    "text": "So why is my service off?",
+    "intent": "why",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.7382299304008484
+    }
+  },
+  {
+    "text": "What is the problem?",
+    "intent": "why",
+    "intent_prediction": {
+      "name": "main_menu",
+      "confidence": 0.41218259930610657
+    }
+  },
+  {
+    "text": "Nececito mi balance",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.9971582293510437
+    }
+  },
+  {
+    "text": "Que canales de deportes tiene",
+    "intent": "speak_spanish",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.993026077747345
+    }
+  },
+  {
+    "text": "Is my service still active",
+    "intent": "worry_shutoff",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.31023547053337097
+    }
+  },
+  {
+    "text": "My phones are off",
+    "intent": "worry_shutoff",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.3104496896266937
+    }
+  },
+  {
+    "text": "come to tmobile but keep my phone and number",
+    "intent": "line_add_byo",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.6587349772453308
+    }
+  },
+  {
+    "text": "I already have an iphone but want to switch to ATT",
+    "intent": "line_add_byo",
+    "intent_prediction": {
+      "name": "shop_device_apple",
+      "confidence": 0.902748703956604
+    }
+  },
+  {
+    "text": "If I purchase a Galaxy Note 10 + 5 G to the Samsung website unlocked can I use it on my T-Mobile account",
+    "intent": "line_add_byo",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.9404407143592834
+    }
+  },
+  {
+    "text": "wanna keep my phone but switch to tmobile",
+    "intent": "line_add_byo",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.44506898522377014
+    }
+  },
+  {
+    "text": "start a line",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.613210141658783
+    }
+  },
+  {
+    "text": "I need a line for my son he doesn't ahve a phone",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.4114769995212555
+    }
+  },
+  {
+    "text": "I’m eligible to trade in my iPhone 8 for the iPhone 11 on us offer with activating a new line?",
+    "intent": "line_add",
+    "intent_prediction": {
+      "name": "shop_device_apple",
+      "confidence": 0.8321496844291687
+    }
+  },
+  {
+    "text": "complaint",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.43848565220832825
+    }
+  },
+  {
+    "text": "How do I cancel my plan",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.501541256904602
+    }
+  },
+  {
+    "text": "I am looking at my bill and wondering why the payment for this month hasn't been taken out of my account. Usually the autopay kicks in by now",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "setup_autopay",
+      "confidence": 0.30171871185302734
+    }
+  },
+  {
+    "text": "I dont want a chatbot",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7979199886322021
+    }
+  },
+  {
+    "text": "I know what I owe please pass my message to a team member thank you",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.2783917486667633
+    }
+  },
+  {
+    "text": "I’ll just call the T-Mobile office",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.5309498310089111
+    }
+  },
+  {
+    "text": "Is this going to be recurring every month? If so I have no problem going back to Verizon.",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.47468793392181396
+    }
+  },
+  {
+    "text": "Team member",
+    "intent": "transfer_to_expert",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.7311187982559204
+    }
+  },
+  {
+    "text": "Bring me to the menu",
+    "intent": "main_menu",
+    "intent_prediction": {
+      "name": "line_add_byo",
+      "confidence": 0.500396192073822
+    }
+  },
+  {
+    "text": "Go back to devices menu",
+    "intent": "main_menu",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.7260059118270874
+    }
+  },
+  {
+    "text": "options please",
+    "intent": "main_menu",
+    "intent_prediction": {
+      "name": "button_payment_options",
+      "confidence": 0.453689306974411
+    }
+  },
+  {
+    "text": "changing one line to trigger a build pls work pipeline",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.4886755049228668
+    }
+  },
+  {
+    "text": "Fuck off",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9990018010139465
+    }
+  },
+  {
+    "text": "Gel",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.7322701811790466
+    }
+  },
+  {
+    "text": "go back",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "main_menu",
+      "confidence": 0.9594007730484009
+    }
+  },
+  {
+    "text": "gsaf",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9998669028282166
+    }
+  },
+  {
+    "text": "i can't deal with _your_ request",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9946165084838867
+    }
+  },
+  {
+    "text": "i m looking for job",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.8281644582748413
+    }
+  },
+  {
+    "text": "i want to book a hotel",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.22193250060081482
+    }
+  },
+  {
+    "text": "is it a wasteland full of broken robot parts?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9283463954925537
+    }
+  },
+  {
+    "text": "oh my god, not again!",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.4601626396179199
+    }
+  },
+  {
+    "text": "ok one then",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9987865090370178
+    }
+  },
+  {
+    "text": "only that?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.40315699577331543
+    }
+  },
+  {
+    "text": "please voulette",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6191040873527527
+    }
+  },
+  {
+    "text": "refresh",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9996061325073242
+    }
+  },
+  {
+    "text": "some thing else",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "transfer_to_expert",
+      "confidence": 0.8624792695045471
+    }
+  },
+  {
+    "text": "the beatles",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9979172945022583
+    }
+  },
+  {
+    "text": "The weather is good",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.3596760332584381
+    }
+  },
+  {
+    "text": "what are you doing now?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.9916114807128906
+    }
+  },
+  {
+    "text": "What day is it today?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "closing",
+      "confidence": 0.24900688230991364
+    }
+  },
+  {
+    "text": "what is evolution ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.6841462254524231
+    }
+  },
+  {
+    "text": "what is the current petrol price",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "shop_device_apple",
+      "confidence": 0.34148091077804565
+    }
+  },
+  {
+    "text": "what is the illuminati",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "plan_review",
+      "confidence": 0.5414794087409973
+    }
+  },
+  {
+    "text": "what's your wife doing this weekend",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.8199784755706787
+    }
+  },
+  {
+    "text": "who's Bill Gates?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.6790552139282227
+    }
+  },
+  {
+    "text": "you have job opening",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.5876275300979614
+    }
+  },
+  {
+    "text": "I need to set up my new phone",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.21812203526496887
+    }
+  },
+  {
+    "text": "no signal",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.579672634601593
+    }
+  },
+  {
+    "text": "T-Mobile Tuesdays",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.7111701369285583
+    }
+  },
+  {
+    "text": "what deal are you guys offering",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.8614935874938965
+    }
+  },
+  {
+    "text": "what is the nearest tower to my house",
+    "intent": "tmo_out_of_scope",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9554690718650818
+    }
+  },
+  {
+    "text": "I am wondering if I can make my payment for my past due on Thursday and not have my phone shut off....",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.47719258069992065
+    }
+  },
+  {
+    "text": "I need to put a payment arrangement for the 11th bc i wont have the money til then",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.8072414398193359
+    }
+  },
+  {
+    "text": "Need time to pay bill",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.9996398687362671
+    }
+  },
+  {
+    "text": "Set payment arrangement on account",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_view_existing",
+      "confidence": 0.5457842946052551
+    }
+  },
+  {
+    "text": "Try to arrange the payments",
+    "intent": "pa_create",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.7866304516792297
+    }
+  },
+  {
+    "text": "I need to change the payment source of the payment of 155.58 dated October 30 It needs to be charged to my Visa on file.",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9233477711677551
+    }
+  },
+  {
+    "text": "I need to set up two different ways to pay each one not giving me that option",
+    "intent": "pa_update_payment",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9982116222381592
+    }
+  },
+  {
+    "text": "I don't remember what day my bill is due I have a payment arrangement already",
+    "intent": "pa_view_existing",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.6674405336380005
+    }
+  },
+  {
+    "text": "my new payment arrangement is 86.77 on 10/1 and 86.76 on 10/12.. Can you make sure you see that on your end? I don't want to get disconnected",
+    "intent": "pa_view_existing",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.36273717880249023
+    }
+  },
+  {
+    "text": "Additional time to make payment arrangement",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.7539708614349365
+    }
+  },
+  {
+    "text": "I cannot make that one can i make another payment arrangement",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.7906157374382019
+    }
+  },
+  {
+    "text": "I get paid on Monday",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9963658452033997
+    }
+  },
+  {
+    "text": "I have to have my phone I am a nurse and I cannot make a payment until Friday",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.3466494083404541
+    }
+  },
+  {
+    "text": "I need more time with my payment arrangement",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.34026792645454407
+    }
+  },
+  {
+    "text": "Please I need some extra time for the whole balance",
+    "intent": "pa_cannot_pay",
+    "intent_prediction": {
+      "name": "shop_device_apple",
+      "confidence": 0.4545055627822876
+    }
+  },
+  {
+    "text": "Can have the 10/02/2020 payment arrangement set back to 10/09/2020",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.4954969584941864
+    }
+  },
+  {
+    "text": "can’t make it for that date",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9336339235305786
+    }
+  },
+  {
+    "text": "I can only do nov 6",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.6062647700309753
+    }
+  },
+  {
+    "text": "I need it to be the 20th",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.8593290448188782
+    }
+  },
+  {
+    "text": "I need to change it to pay the full amount on Thurs morning of next week.",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.677950918674469
+    }
+  },
+  {
+    "text": "I need to push back the payment on 10/5",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.5935332179069519
+    }
+  },
+  {
+    "text": "I was hoping to get an extension until this Friday",
+    "intent": "pa_change_dates",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.6906474232673645
+    }
+  },
+  {
+    "text": "Can I change the 9/12 one?",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.8417612910270691
+    }
+  },
+  {
+    "text": "can i pay the 81.81 on the 2nd of October",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.9765995144844055
+    }
+  },
+  {
+    "text": "Can I set up on different payment arrangement",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.3851946294307709
+    }
+  },
+  {
+    "text": "Can you set up payment arrangements it isn't giving me enough time",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.8919374346733093
+    }
+  },
+  {
+    "text": "I don’t wanna do a payment arrangement I wanna remove the payment arrangement and remove the card",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.710808277130127
+    }
+  },
+  {
+    "text": "I need a couple of more days.  I am not able to make today's payment.",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9227177500724792
+    }
+  },
+  {
+    "text": "I need more time for this payment arrangement",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.8717825412750244
+    }
+  },
+  {
+    "text": "I need to split that payment.",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.6625491380691528
+    }
+  },
+  {
+    "text": "I want to setup a payment arrangement, but need to push the two dates out a few days...to 10.15.2020 and 10.30.2020.  Is that an option?",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.40869349241256714
+    }
+  },
+  {
+    "text": "I would like to void the existing payment arramgement and make a new one based on my current bill of $195",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.8694831132888794
+    }
+  },
+  {
+    "text": "I’m supposed to have a payment debit tomorrow and the funds to pay it are not going to be deposited into my account until Thursday",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.5222390294075012
+    }
+  },
+  {
+    "text": "im unable to pay right now im in the process of starting a new job",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.9707717299461365
+    }
+  },
+  {
+    "text": "It doesn’t allow me to go past the 15",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.99757319688797
+    }
+  },
+  {
+    "text": "Need 4 payments",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.8553563356399536
+    }
+  },
+  {
+    "text": "Need to pay bill on October 15 .",
+    "intent": "pa_edit_cancel",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.9991300106048584
+    }
+  },
+  {
+    "text": "But I just found out my bank rejected it",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.838655948638916
+    }
+  },
+  {
+    "text": "Half payment is on its way.",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.8409598469734192
+    }
+  },
+  {
+    "text": "I already applied $100...@ store location,  towards my payment for 10/01",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "tmo_out_of_scope",
+      "confidence": 0.8621946573257446
+    }
+  },
+  {
+    "text": "I changed my pay date to October 12. I just got a text that payment processing on 9/30. And this app says 10/3. Pleaee advise",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.7816200256347656
+    }
+  },
+  {
+    "text": "i have already created another payment  method, I am just confirming if it was accept",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_update_payment",
+      "confidence": 0.693139910697937
+    }
+  },
+  {
+    "text": "I paid my pa installment yesterday",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_edit_cancel",
+      "confidence": 0.9627980589866638
+    }
+  },
+  {
+    "text": "I paid on the 6th",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.8712587952613831
+    }
+  },
+  {
+    "text": "I've already made the payment for 75.56",
+    "intent": "payment_processing",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.508878231048584
+    }
+  },
+  {
+    "text": "Are you guys going to be giving back the unlimited data?",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.2136445790529251
+    }
+  },
+  {
+    "text": "I have a question regarding Netflix and my plan please.",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.6769188642501831
+    }
+  },
+  {
+    "text": "i was wondering is there a way thru my plan to watch CBS channel 2",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "tvision",
+      "confidence": 0.6942831873893738
+    }
+  },
+  {
+    "text": "I would like to know if a cracked screen is covered under my plan?",
+    "intent": "plan_review",
+    "intent_prediction": {
+      "name": "plan_compare",
+      "confidence": 0.4910435378551483
+    }
+  },
+  {
+    "text": "how much is a wireless iPad plan?",
+    "intent": "plan_compare",
+    "intent_prediction": {
+      "name": "shop_device_apple",
+      "confidence": 0.9913138151168823
+    }
+  },
+  {
+    "text": "I can't find my phone",
+    "intent": "lost_phone",
+    "intent_prediction": {
+      "name": "worry_shutoff",
+      "confidence": 0.46559658646583557
+    }
+  },
+  {
+    "text": "I changed the payment but it won’t let me add back auto pay",
+    "intent": "lost_phone",
+    "intent_prediction": {
+      "name": "setup_autopay",
+      "confidence": 0.7867461442947388
+    }
+  },
+  {
+    "text": "It’s only giving me to the 14th is there a way I can put my bill on the 15th every month",
+    "intent": "lost_phone",
+    "intent_prediction": {
+      "name": "pa_change_dates",
+      "confidence": 0.872191309928894
+    }
+  },
+  {
+    "text": "I haven't got my new phone yet",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "pa_cannot_pay",
+      "confidence": 0.4034847021102905
+    }
+  },
+  {
+    "text": "I'm looking for my phone",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.4848591089248657
+    }
+  },
+  {
+    "text": "are doing any deals on the Samsung Galaxy S20 ultra. It would be for 2 people 2 lines on the same account.",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.6723138093948364
+    }
+  },
+  {
+    "text": "do you sell the S pen for the note 10+?",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "pa_create",
+      "confidence": 0.6067237257957458
+    }
+  },
+  {
+    "text": "Hi do you carry the lg velvet duel screen phone case?",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "broken",
+      "confidence": 0.9948670864105225
+    }
+  },
+  {
+    "text": "I want to upgrade line 703-456-6822",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "bill_pay",
+      "confidence": 0.8548792600631714
+    }
+  },
+  {
+    "text": "I would like to trade in my Samsung S9 for the S20 FE. How does that work",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "line_add",
+      "confidence": 0.28238987922668457
+    }
+  },
+  {
+    "text": "shop devices",
+    "intent": "shop_device",
+    "intent_prediction": {
+      "name": "button_shop_other_device",
+      "confidence": 0.7558635473251343
+    }
+  },
+  {
+    "text": "i phone 11 how much",
+    "intent": "shop_device_apple",
+    "intent_prediction": {
+      "name": "shop_device",
+      "confidence": 0.8184052109718323
+    }
+  },
+  {
+    "text": "How much is the TV service I have 4 tvs at my house",
+    "intent": "tvision",
+    "intent_prediction": {
+      "name": "bill_view",
+      "confidence": 0.5588698983192444
+    }
+  }
+]
